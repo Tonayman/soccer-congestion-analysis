@@ -26,5 +26,9 @@ Using historical match data, the project explores relationships between rest day
 - Pandas
 - Matplotlib / Seaborn
 
-## Status
-🚧 Project in progress — analysis and visualizations currently being developed.
+## Results
+- Teams achieved the highest average points with approximately 7–10 days of rest.
+- Very short rest (0–2 days) was associated with worse performance.
+- Goal difference showed higher variance, but followed a similar trend.
+
+
