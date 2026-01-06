@@ -1,30 +1,29 @@
 # Soccer Match Congestion & Performance Analysis
 
 ## Overview
-This project analyzes how match schedule congestion and rest periods impact team performance in major international soccer competitions (UEFA European Championship and Nations League).
-Using historical match data, the project explores relationships between rest days, match frequency, and competitive outcomes.
+This project studies how Schedule Congestions from Match Days or periods and Rest Time between matches have affected teams' performances in international Soccer Competitions (UEFA European Championship and Nations League) through some historical match data and will correlate Rest Days, Matches Played, and Competitive Outcomes.
 
 ## Data Source
-- UEFA EURO match data (1960–2024)
-- UEFA Nations League match data (2019–2025)
-- Dataset includes match dates, teams, scores, and competition metadata
+- UEFA EURO Matches (1960 - 2024)
+- UEFA Nations League Matches (2019 - 2025)
+- The dataset will include the Match Dates, Teams, Scores, and Competition Metadata.
 
 ## Key Questions
-- How frequently do teams play during international tournaments?
-- Does shorter rest between matches correlate with worse performance?
-- How does match congestion affect points earned and goal difference?
+- How often do teams play in International Tournaments?
+- Does having a very short recovery time (i.e., Rest Days after Matches) result in poorer performance than teams with more time to recover between matches?
+- How much does Schedule Congestion impact a team’s Points Earned and Goal Difference?
 
 ## Methods
-- Data cleaning and restructuring into a team-level time series
-- Feature engineering:
-  - Days since last match
-  - Matches played in rolling time windows
-- Exploratory data analysis and visualization
+- Cleaning and Restructuring Data into Team-Level Time-Series
+- Feature Engineering
+- Days Prior to Last Match
+- How Many Matches were played in Rolling Time Windows
+- Analysis of Data and Creating Visualisations
 
 ## Tools
 - Python
 - Pandas
-- Matplotlib / Seaborn
+- Matplotlib
 
 ## Results
 - Teams achieved the highest average points with approximately 7–10 days of rest.
