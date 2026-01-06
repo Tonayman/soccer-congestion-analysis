@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data files (keep raw local)
+data_raw/
+*.zip
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
